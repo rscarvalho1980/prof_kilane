@@ -15,6 +15,10 @@
     gap: 1em;
 }
 
+.rodape__paragrafo{
+    font-size: 10px;
+}
+
 /* CONFIGURACAO DO FOOTER PARA TABLET*/
 @media screen and (min-width:1024px) {
 

@@ -17,9 +17,9 @@
 .container{
     display: flex;
     align-items: center;
-    gap: 1em
   
 }
+
 .cabecalho{
     background-image: var(--gradiente);
     display: flex;

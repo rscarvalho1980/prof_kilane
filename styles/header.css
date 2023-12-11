@@ -12,22 +12,12 @@
     /* Serve para colocar o menu suspenso do menu hamburger, embaixo do icone do menu hamburger. Depois, lá embaixo no lista__menu vamos acrescentar o position absolute */
     position: relative;
 }
-/* .cabeçalho__menu-hamburguer {
-    width: 24px;
-    height: 24px;
-    background-image: url("../img/Menu.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
-}
- */
-
 
 
 .container{
     display: flex;
     align-items: center;
-    gap: 4em
+    gap: 1em
   
 }
 .cabecalho{
@@ -47,13 +37,20 @@
     font-family: var(--fonte-principal);
     color: var(--cor-branca);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    font-size: 22px;
+    font-size: 18px;
     width: 3em;
 }
 
 .header__titulo__now{
     color: rgb(196, 1, 1);
     text-shadow: 1px 1px 1px #ffffff;
+}
+
+.header__phone__paragrafo{
+    font-size: 14px;
+    color: var(--branco);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
 }
 
 .lista__menu{
@@ -66,12 +63,6 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
     border-radius: 0 0 10px 10px;   
 }
-/* .lista-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    width: 60vw;
-} */
 
 
 .lista__menu__titulo{
@@ -93,9 +84,7 @@
     padding:1em;
     color: #eb9b00;
     text-shadow: .5px .5px .5px rgba(0, 0, 0, 0.1);
-
-
-    
+   
 }
 
 .lista__menu__item{

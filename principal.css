@@ -478,6 +478,8 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 
 .descricao__titulo1{
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 1em;
     color: var(--azul);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.265);

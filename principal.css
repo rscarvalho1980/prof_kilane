@@ -45,6 +45,7 @@
     color: var(--azul);
     font-size: 18px;
     text-align: left;
+    margin-top: .5em;
 
 }
 
@@ -75,7 +76,7 @@ font-size: 30px;
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin-top: 1em;
+    margin-top: .5em;
 
 }
 

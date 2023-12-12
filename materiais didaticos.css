@@ -31,7 +31,7 @@
 .material-didático__titulo__mobile{
     font-family: var(--fonte-principal);
     color: var(--azul);
-    font-size: 22px;
+    font-size: 26px;
     text-align: left;
     padding: 0 1em;
 }
@@ -45,7 +45,7 @@
 .menu__lista__mobile{
     display: flex;
     flex-direction: column;
-    margin:5em;
+    margin:1em;
     padding: 2em;
     list-style: none;
     gap:1em;
@@ -59,7 +59,7 @@
 
 .menu__itens__lista__mobile{
 text-align: center;
-padding: 5em 5em 0 5em;
+padding: 5em 1em 0 1em;
 }
 
 .menu__itens__lista__imagem__mobile{

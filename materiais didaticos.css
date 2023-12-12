@@ -44,18 +44,16 @@
 }
 .menu__lista__mobile{
     display: flex;
-    background-color: var(--branco);
     flex-direction: column;
     margin:5em;
     padding: 2em;
     list-style: none;
     gap:1em;
-    border-radius: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .menu__div__books__mobile{
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 3em;
 }
@@ -70,7 +68,6 @@ padding: 5em;
     border-radius: 10px;
 
 }
-
 
 
 .materiais__desktop{
@@ -108,10 +105,6 @@ font-size: 22px;
 margin-top: 1em 30em;
 }
 
-
-.menu__lista__mobile{
-    display: block;
-}
 
 .materiais__desktop{
     display: none;

@@ -36,12 +36,14 @@
 .banner__titulo__mobile{
     font-family: var(--fonte-principal);
     color: var(--azul);
-    font-size: 22px;
+    font-size: 20px;
+    text-align: left;
 }
 .banner__texto__mobile{
     font-family: var(--fonte-principal);
     color: var(--azul);
-    font-size: 20px;
+    font-size: 18px;
+    text-align: left;
 }
 
 .descricao__titulo__carrossel__mobile{

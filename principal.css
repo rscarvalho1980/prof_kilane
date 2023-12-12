@@ -12,6 +12,7 @@
     border-radius: 20px;
     margin: 1em;
     padding: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
 }
 
@@ -19,10 +20,18 @@
     display: flex;
 }
 
+.descricao__titulo__mobile__p{
+    margin: 0 1em;
+}
+
 .descricao__link__mobile{
     text-decoration: none;
     color: var(--azul);
     
+}
+
+.descricao__imagem__link__mobile{
+    align-items: center;
 }
 
 .link__paragrafo__mobile{

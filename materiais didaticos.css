@@ -31,9 +31,13 @@
 .material-didático__titulo__mobile{
     font-family: var(--fonte-principal);
     color: var(--azul);
-    font-size: 26px;
+    font-size: 30px;
     text-align: left;
-    padding: 0 1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+
+    /* padding: 0 1em; */
+
 }
 .material-didático__subtitulo__mobile{
     font-family: var(--fonte-secundária);
@@ -45,7 +49,7 @@
 .menu__lista__mobile{
     display: flex;
     flex-direction: column;
-    margin:1em;
+    /* margin:1em; */
     padding: 2em;
     list-style: none;
     gap:1em;
@@ -55,6 +59,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: .3em;
 }
 
 .menu__itens__lista__mobile{

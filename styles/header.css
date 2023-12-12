@@ -21,6 +21,11 @@
   
 }
 
+.container__mobile{
+    display: flex;
+    flex-direction: column;
+}
+
 .cabecalho{
     background-image: var(--gradiente);
     display: flex;
@@ -176,7 +181,8 @@ margin-right: 3em;
     }
         
     .header__phone__desktop{
-        display: block;
+        display: flex;
+        flex-direction: column;
         align-items: center; 
         font-family: var(--fonte-secundaria); 
         

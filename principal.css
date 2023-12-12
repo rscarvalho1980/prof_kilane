@@ -83,7 +83,8 @@ font-size: 18px;
 }
 .menu__paragrafo__section1__mobile{
     color: var(--azul);
-    font-size: 12px;
+    font-size: 8px;
+    text-align: left;
 }
 
 /* .menu__comece__aprender__agora{

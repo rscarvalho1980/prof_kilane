@@ -14,6 +14,24 @@
     
 }
 
+.descricao__titulo__mobile{
+    display: flex;
+}
+
+.descricao__link__mobile{
+    text-decoration: none;
+    color: var(--azul);
+    
+}
+
+.link__paragrafo__mobile{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
 .header__phone{
     margin-right: 2em;
 }

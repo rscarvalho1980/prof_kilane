@@ -31,14 +31,14 @@
 .material-didático__titulo__mobile{
     font-family: var(--fonte-principal);
     color: var(--azul);
-    font-size: 30px;
+    font-size: 22px;
     text-align: justify;
     padding: 0 1em;
 }
 .material-didático__subtitulo__mobile{
     font-family: var(--fonte-secundária);
     color: var(--azul);
-    font-size: 32px;
+    font-size: 22px;
     text-align: center;
     padding: 0 1em;
 }

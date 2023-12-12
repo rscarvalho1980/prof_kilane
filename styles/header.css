@@ -52,10 +52,14 @@ margin-right: 3em;
 }
 
 .header__phone__paragrafo{
-    font-size: 14px;
+    font-size: 10px;
     color: var(--branco);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 
+}
+
+.header__desktop{
+    display: none;
 }
 
 .lista__menu{
@@ -117,6 +121,7 @@ margin-right: 3em;
     .cabecalho{
         display: none;
     }
+
     
     .header__principal{
         background-image: var(--gradiente);
@@ -169,27 +174,27 @@ margin-right: 3em;
     .header__menu__desktop:hover{
         color: var(--azul);
     }
-    
-    
-    .header__phone__paragrafo{
-        color: var(--branco);
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    
-    }
         
-    .header__phone{
+    .header__phone__desktop{
         display: flex;
         align-items: center; 
-        font-family: var(--fonte-principal);      
+        font-family: var(--fonte-principal); 
+        
     }
-    
+
+
+    .header__phone__paragrafo__desktop{
+        color: var(--branco);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); 
+        font-size: 30px;
+
+    }
+
+
     .header__phone__link{
         display: flex;
         text-decoration: none;
     
     }
-    }
-    /*CONFIGURACAO DO HEADER PARA DESKTOP  */
-@media screen and (min-width:1600px) {
-
-}
+    
+  

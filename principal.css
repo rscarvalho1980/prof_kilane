@@ -147,6 +147,7 @@ text-decoration: none;
 
 .menu__container__card2__mobile{
     display: flex;
+    background-color: var(--branco);
     flex-direction: column;
     align-items: center;
     margin: 3em 1em 1em 1em;

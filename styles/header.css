@@ -17,6 +17,7 @@
 .container{
     display: flex;
     align-items: center;
+    margin-right: 3em;
   
 }
 
@@ -44,6 +45,10 @@
 .header__titulo__now{
     color: rgb(196, 1, 1);
     text-shadow: 1px 1px 1px #ffffff;
+}
+
+.header__phone{
+margin-right: 3em;
 }
 
 .header__phone__paragrafo{

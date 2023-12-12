@@ -22,10 +22,6 @@
     justify-content: center;
 }
 
-.descricao__titulo__mobile__p{
-    margin: 0 1em;
-}
-
 .descricao__link__mobile{
     text-decoration: none;
     color: var(--azul);

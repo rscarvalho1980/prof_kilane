@@ -176,7 +176,7 @@ margin-right: 3em;
     }
         
     .header__phone__desktop{
-        display: flex;
+        display: block;
         align-items: center; 
         font-family: var(--fonte-secundaria); 
         

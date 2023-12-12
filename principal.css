@@ -8,7 +8,7 @@
 
 .card__mobile2{
     display: block;
-    background-color: var(--branco);
+    
     border-radius: 20px;
     margin: 1em;
     padding: 1em;
@@ -118,12 +118,6 @@ font-size: 18px;
 padding-top: 1em;
 }
 
-.menu__
-paragrafo__section1__mobile{
-    color: var(--azul);
-    font-size: 8px;
-    text-align: left;
-}
 
 .comece__aprender__agora__mobile{
     display: block;

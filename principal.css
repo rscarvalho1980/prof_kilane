@@ -26,6 +26,8 @@
 .descricao__link__mobile{
     text-decoration: none;
     color: var(--azul);
+    align-items: center;
+    justify-content: center;
     
 }
 

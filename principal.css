@@ -17,8 +17,6 @@
 
 .menu__banner__mobile{
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 1em;
     margin: 1.5em 1.5em 3.7em 1.5em;
     color: #1263ceac;
@@ -38,12 +36,12 @@
 .banner__titulo__mobile{
     font-family: var(--fonte-principal);
     color: var(--azul);
-    font-size: 26px;
+    font-size: 22px;
 }
 .banner__texto__mobile{
     font-family: var(--fonte-principal);
     color: var(--azul);
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .descricao__titulo__carrossel__mobile{
@@ -72,7 +70,8 @@ font-size: 30px;
 .menu__container-mobilefirst{
     display: flex;
     flex-direction: column;
-    
+    justify-content: left;
+
 }
 
 
@@ -92,18 +91,6 @@ font-size: 18px;
     font-size: 8px;
     text-align: left;
 }
-
-/* .menu__comece__aprender__agora{
-    font-family: ;
-    background-color: #1263ceac;
-    color: white;
-    text-align: center;
-    padding: 2em 2em;
-    border-radius: 10px;
-    margin: 1em;
-    padding: 2em;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-} */
 
 .comece__aprender__agora__mobile{
     display: block;

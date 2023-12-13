@@ -15,13 +15,13 @@
     gap: 1em;
 }
 
-/* CONFIGURACAO DO RODAPÉ PARA MOBILE LANDSCAPE */
+/* CONFIGURACAO DO FOOTER PARA MOBILE LANDSCAPE */
 
 @media screen and (max-width: 767px) and (orientation: landscape) {
+.rodape{
+    margin-top: 3em;
+}
 
-
-.rodape__paragrafo{
-    font-size: 10px;
 }
 
 /* CONFIGURACAO DO FOOTER PARA TABLET*/

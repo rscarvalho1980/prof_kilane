@@ -8,9 +8,9 @@
 }
 .preco__container{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: lightgoldenrodyellow;
-    padding: 2em;
     justify-content: center;
     margin: 1em;
     border-radius: 1em;
@@ -31,9 +31,9 @@
 
 }
 
-/* .preco__imagem__mobile{
-    margin-left: 18em;
-} */
+preco__imagem__mobile{
+justify-content: center;
+} 
 
 
 /* .preco__imagem__mobile2{

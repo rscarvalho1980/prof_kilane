@@ -15,6 +15,11 @@
     gap: 1em;
 }
 
+/* CONFIGURACAO DO RODAPÉ PARA MOBILE LANDSCAPE */
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+
+
 .rodape__paragrafo{
     font-size: 10px;
 }

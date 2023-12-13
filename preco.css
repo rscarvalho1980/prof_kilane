@@ -85,6 +85,10 @@ margin-bottom: .5em;
         
     }
 
+    .landscape__span{
+        font-size:36px ;
+    }
+
     .preco__titulo__landscape{
         display: flex;
         background-color: lightgoldenrodyellow;

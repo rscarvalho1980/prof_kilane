@@ -17,56 +17,51 @@
 <body>
     <!-- CABECALHO MOBILE -->
    
-    <!-- CABECALHO MOBILE -->
-   
-   <header class="cabecalho">
+    <header class="cabecalho">
     
-    <div class="container">
-        <input class="menu__botao" type="checkbox" id="menu" >
-        <!-- O <label> fecha depois do <span> -->
-        <label for="menu">
-        <span class="cabecalho__menu-hamburger container__imagem"></span></label>
+        <div class="container">
+            <input class="menu__botao" type="checkbox" id="menu" >
+            <!-- O <label> fecha depois do <span> -->
+            <label for="menu">
+            <span class="cabecalho__menu-hamburger container__imagem"></span></label>
+    
+            <ul class="lista__menu">
+                <li class="lista__menu__titulo">
+                    Categorias
+                </li>
+    
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link"href="index.html">HOME</a>
+                </li>
+    
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link"href="como funciona.html">COMO FUNCIONA</a>
+                </li>
+    
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link"href="materiais didaticos.html">MATERIAIS DIDÁTICOS</a>
+                </li>
+    
+                <li class="lista__menu__item">
+                    <a class="lista__menu__link"href="preco.html">PREÇOS</a>
+                </li>
+            </ul>
 
-        <ul class="lista__menu">
-            <li class="lista__menu__titulo">
-                Categorias
-            </li>
-
-            <li class="lista__menu__item">
-                <a class="lista__menu__link"href="index.html">HOME</a>
-            </li>
-
-            <li class="lista__menu__item">
-                <a class="lista__menu__link"href="como funciona.html">COMO FUNCIONA</a>
-            </li>
-
-            <li class="lista__menu__item">
-                <a class="lista__menu__link"href="materiais didaticos.html">MATERIAIS DIDÁTICOS</a>
-            </li>
-
-            <li class="lista__menu__item">
-                <a class="lista__menu__link"href="preco.html">PREÇOS</a>
-            </li>
-        </ul>
-
-        <div class="cabecalho__letreiro">
-            <h1 class="header__titulo"> Easy English <span class="header__titulo__now" >Now!</span></h1>
-            <img class="container__imagem" src="assets/logo.png" width="50px" alt="logo do site">
+            <div class="cabecalho__letreiro">
+                <h1 class="header__titulo"> Easy English <span class="header__titulo__now" >Now!</span></h1>
+                <img class="container__imagem" src="assets/logo.png" width="90px" alt="logo do site">
+            </div>
+    
         </div>
-
-
-
-    </div>
-
-    <div class="container__mobile">
-        <div class="header__phone">
-            <p class="header__phone__paragrafo">Contatos:</p></a> 
-            <p class="header__phone__paragrafo">+351 936 680 657</p>
-            <p class="header__phone__paragrafo">email:kilanebrasil@gmail.com</p>
-        </div>
-    </div>
-
-   </header>
+    
+        <div class="container__mobile">
+            <div class="header__phone">
+                <p class="header__phone__paragrafo">Contatos:</p></a> 
+                <p class="header__phone__paragrafo">+351 936 680 657</p>
+                <p class="header__phone__paragrafo">email:kilanebrasil@gmail.com</p>
+            </div>
+    
+       </header>
     
        <!-- CABECALHO TABLET E DESKTOP -->
        <header class="header__principal">
@@ -106,15 +101,13 @@
 
         <div class="preco__titulo">
                 <h2 class="plano ">
-                    <div><span class="nosso_plano">Nossos planos:</span> <br> <br></div>
+                    <span class="nosso_plano">Nossos planos:</span> <br> <br>
                 
-                     <div>
-                         Individual: <br>
-                         
-                                             - Hora aula: 23&euro;<p></p>    
-                                             - Pacote 4 horas/aula: 80&euro;<p> 
-                                             - Pacote 8 horas/aula: 150&euro;<br><p> <br>
-                     </div>
+                     Individual: <br>
+                     
+                    - Hora aula: 23&euro;<p></p>    
+                    - Pacote 4 horas/aula: 80&euro;<p> 
+                    - Pacote 8 horas/aula: 150&euro;<br><p> <br>
 
                      Grupo:  <br>
                         
@@ -129,7 +122,44 @@
 
 </main>
 
-<!--MAIN PRECO PARA TABLET E DESKTOP  -->
+<!--MAIN PRECO PARA TABLET  E MOBILE LANDSCAPE  -->
+<main class="preco__mobile__landscape">
+
+
+    <div class="preco__container__landscape">
+
+        <div class="preco__imagem__mobile__landscape">
+            <img class="preco__imagem__mobile1__landscape" src="assets/aula experimental.png" width="120px" alt="etiqueta aula experimental gratis">
+        </div>
+
+        <div class="preco__titulo__landscape">
+                <h2 class="plano__landscape ">
+                    <div><span class="nosso_plano__landscape">Nossos planos:</span> <br> <br></div>
+                
+                     <div>
+                         Individual: <br>
+                         
+                                             - Hora aula: 23&euro;<p></p>    
+                                             - Pacote 4 horas/aula: 80&euro;<p> 
+                                             - Pacote 8 horas/aula: 150&euro;<br><p> <br>
+                     </div>
+
+                     <div>
+                         Grupo:  <br>
+                            
+                                             - Pacote 4 horas/aula:  65&euro;<br><p> 
+                                             - Pacote 8 horas/aula:  100&euro;<br><p> <br>
+                                             Material didático:  <p>23&euro; (cada livro)<br><p>
+                     </div>
+                </h2>
+        </div>
+
+      </div>
+
+
+</main>
+
+<!-- MAIN PRECO PARA DESKTOP -->
 
 <main class="preco__desktop">
 

@@ -80,17 +80,19 @@ margin-bottom: .5em;
     .plano__landscape{
         display: flex;
         color: var(--azul);
-        font-family: var(--fonte-secundária);
-        font-size: 22px;
+        font-family: var(--fonte-principal);
+        font-size: 20px;
         justify-content: center;
         align-items: center;
-        gap: 2em;
+        gap: 1em;
+        padding: 1em;
+        margin: 1em;
         
     }
 
     .preco__titulo__landscape{
         display: flex;
-        background-color: var(--branco);
+        background-color: lightgoldenrodyellow;
     }
     
     .preco__imagem__mobile__landscape{

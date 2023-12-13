@@ -72,7 +72,7 @@ margin-right: 3em;
     font-family: var(--fonte-secundaria);
     background-color:var(--branco);
     position: absolute;
-    top:13%; 
+    top:15%; 
     list-style: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
     border-radius: 0 0 10px 10px;   

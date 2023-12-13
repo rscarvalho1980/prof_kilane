@@ -62,7 +62,8 @@ margin-bottom: .5em;
     }
 
     .preco__mobile__landscape{
-    
+        display: flex;
+        flex-direction: column;
         height: 100vh;
        
     }

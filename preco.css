@@ -30,7 +30,7 @@
     
 }
 
-preco__imagem__mobile{
+.preco__imagem__mobile{
 justify-content: center;
 margin-bottom: .5em;
 } 
@@ -43,6 +43,60 @@ margin-bottom: .5em;
 .preco__desktop{
     display: none;
 }
+
+
+
+
+
+/* CONFIGURACAO DO MAIN PRECO PARA TELA DE MOBILE LANDSCAPE, NA HOROZINTAL */
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    .preco__mobile{
+        display: flex;
+        height: 100vh;
+    
+        
+    }
+    .preco__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:0 2em ;
+        flex-direction: column;
+        background-color: lightgoldenrodyellow;
+        margin: 3em;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    
+    .nosso_plano{
+        font-size:30px ;
+    }
+    
+    .plano{
+        color: var(--azul);
+        font-family: var(--fonte-secundária);
+        font-size: 22px;
+        
+    }
+    
+    .preco__imagem__mobile{
+    justify-content: center;
+    margin-bottom: .5em;
+    } 
+    
+    
+    /* .preco__imagem__mobile2{
+        margin-left: 7em;
+    } */
+    
+    .preco__desktop{
+        display: none;
+    }
+}
+
+
+
 
 /* CONFIGURACAO DO MAIN PRECO PARA TABLET E DESKTOP */
 @media screen and (min-width:1024px) {

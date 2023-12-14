@@ -71,14 +71,13 @@
     color: var(--azul);
     font-size: 20px;
     text-align: left;
-    margin: 1em 0;
+    margin-top: 1em;
 }
 .banner__texto__mobile{
     font-family: var(--fonte-principal);
     color: var(--azul);
     font-size: 18px;
     text-align: left;
-    margin-top: .5em;
 
 }
 
@@ -260,7 +259,7 @@ border-radius: 100px;
     font-family: var(--fonte-secundaria);
     color: var(--azul);
     font-size: 10px;
-    text-align: left;
+    text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.265);
 
 }

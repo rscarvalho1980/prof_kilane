@@ -115,6 +115,10 @@ margin-bottom: .5em;
 .preco__mobile{
     display: none;
 }
+.preco__mobile__landscape{
+    display: none;
+}
+
 .preco__desktop{
     display: flex;
     

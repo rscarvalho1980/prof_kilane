@@ -52,7 +52,7 @@ margin-bottom: .5em;
 
 
 /* CONFIGURACAO DO MAIN PRECO PARA TELA DE MOBILE LANDSCAPE, NA HOROZINTAL */
-@media screen and (max-width: 767px) and (orientation: landscape) {
+@media screen and (max-width: 480px) and (orientation: landscape) {
     .preco__mobile{
         display: none;
     }
@@ -63,7 +63,7 @@ margin-bottom: .5em;
 
     .preco__mobile__landscape{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         height: 100vh;
         
        
@@ -100,10 +100,6 @@ margin-bottom: .5em;
     }
 
     
-    
-    .preco__desktop__landscape{
-        display: none;
-    }
 }
 
 
